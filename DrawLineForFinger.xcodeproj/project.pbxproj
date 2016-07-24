@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		721366971D44CC9F00B54264 /* DrawLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 721366961D44CC9F00B54264 /* DrawLineView.m */; };
 		72838B3D1D44CC57007DFAE0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 72838B3C1D44CC57007DFAE0 /* main.m */; };
 		72838B401D44CC57007DFAE0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 72838B3F1D44CC57007DFAE0 /* AppDelegate.m */; };
 		72838B431D44CC57007DFAE0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72838B421D44CC57007DFAE0 /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		721366951D44CC9F00B54264 /* DrawLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawLineView.h; sourceTree = "<group>"; };
+		721366961D44CC9F00B54264 /* DrawLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawLineView.m; sourceTree = "<group>"; };
 		72838B381D44CC57007DFAE0 /* DrawLineForFinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawLineForFinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72838B3C1D44CC57007DFAE0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		72838B3E1D44CC57007DFAE0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 				72838B3F1D44CC57007DFAE0 /* AppDelegate.m */,
 				72838B411D44CC57007DFAE0 /* ViewController.h */,
 				72838B421D44CC57007DFAE0 /* ViewController.m */,
+				721366951D44CC9F00B54264 /* DrawLineView.h */,
+				721366961D44CC9F00B54264 /* DrawLineView.m */,
 				72838B441D44CC57007DFAE0 /* Main.storyboard */,
 				72838B471D44CC57007DFAE0 /* Assets.xcassets */,
 				72838B491D44CC57007DFAE0 /* LaunchScreen.storyboard */,
@@ -275,6 +280,7 @@
 			files = (
 				72838B431D44CC57007DFAE0 /* ViewController.m in Sources */,
 				72838B401D44CC57007DFAE0 /* AppDelegate.m in Sources */,
+				721366971D44CC9F00B54264 /* DrawLineView.m in Sources */,
 				72838B3D1D44CC57007DFAE0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -501,6 +507,7 @@
 				72838B671D44CC57007DFAE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		72838B681D44CC57007DFAE0 /* Build configuration list for PBXNativeTarget "DrawLineForFingerTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +516,7 @@
 				72838B6A1D44CC57007DFAE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		72838B6B1D44CC57007DFAE0 /* Build configuration list for PBXNativeTarget "DrawLineForFingerUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +525,7 @@
 				72838B6D1D44CC57007DFAE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
